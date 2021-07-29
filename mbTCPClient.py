@@ -233,7 +233,7 @@ class mywindow(QtWidgets.QMainWindow):
                         self.ui.log_te.appendPlainText(buf)
                         return False
 
-            if len(list_octets)  != 4:
+            if len(list_octets) != 4:
                 print("Тоже лажа")
                 self.ui.log_te.appendPlainText("Не верное количество октетов")
                 return False
