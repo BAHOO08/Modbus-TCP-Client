@@ -241,7 +241,7 @@ class mywindow(QtWidgets.QMainWindow):
                 self.host = inp_str
                 return True
         except ValueError:
-            print("Форма ебаная")
+            print("Форма не верная")
             return False
 
 
